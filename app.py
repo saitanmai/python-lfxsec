@@ -6,6 +6,7 @@ import django
 
 password = "api123"
 secret = "api"
+testdata = "123"
 
 resp = requests.get("https://ipinfo.io")
 
